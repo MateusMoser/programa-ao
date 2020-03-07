@@ -1,0 +1,5 @@
+bras = ('Palmeiras','Flamengo','Internacional','Gremio','Sao Paulo','Atletico mineiro','Atlhetico-PR','Cruzeiro','Bota Fogo','Bahia','Fluminense','Corinthians','Chapecoense','Ceara','Vasco','Sport','America-MG','Vitoria','Parana')
+print (f'Os 5 primeiros colocados do Brasileirao sao {bras[:5]}')
+print (f'Os 4 ultimos colocados sao {bras[-4:]}')
+print (f'Os time em ordem alfabetica sao {sorted(bras)}')
+print (f'O rime da chapecoense esta em {bras.index("Chapecoense")}')

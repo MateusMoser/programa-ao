@@ -1,0 +1,5 @@
+n = input('digite uma frase:' ).lower()
+n2 =  n.strip()
+print ('O a aparece {} vezes na frase'.format(n2.count('a')))
+print ('O a aparece pela primeira vez na {}° letra'.format(n2.find('a')+1))
+print ('o a aparece pela ultima vez na {}° letra'.format(n2.rfind('a')+1))
