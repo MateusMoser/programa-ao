@@ -22,4 +22,4 @@ class Pessoa(Mamifero):
 
 millena = Pessoa('Millena', 'loiro', 'azul', 'clara', 'claro', 80, 2)
 millena.andar()
-print(millena.__dict__)
+print(millena.nome)

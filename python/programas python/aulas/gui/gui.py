@@ -30,7 +30,7 @@ for text,mode in MODES:
 #Radiobutton(root,text='option 1',variable=r , value=1,command=lambda:clicked(r.get())).pack()
 #Radiobutton(root,text='option 2',variable=r , value=2,command=lambda:clicked(r.get())).pack()
 
-button = Button(root,text='click here',command=lambda :clicked(pizza.get()))
+button = Button(root,text='click here',weight=1,command=lambda :clicked(pizza.get()))
 button.pack()
 #mylabel = Label(root,text=pizza.get())
 #mylabel.pack()

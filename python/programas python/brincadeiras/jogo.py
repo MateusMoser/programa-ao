@@ -52,7 +52,7 @@ class Luta():
                 print(f'O lutador {a.nome} foi o vencedor')
                 break
 
-joao = Lutador(30,'joao')
-jose = Lutador(30,'jose')
+joao = Lutador(30,'TODO DURO')
+jose = Lutador(30,'HOLYFIELD')
 ufc = Luta(joao,jose)
 ufc.batalha()
