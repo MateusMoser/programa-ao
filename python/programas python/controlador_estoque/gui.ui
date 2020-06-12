@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="Estoque_combobox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>125</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Estoque</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="nome">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>-1</y>
+      <width>461</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="text">
+     <string>PEPPER LEMON HAMBURGUERIA E FRANGO</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Preco_entrada">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>125</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string extracomment="texto"/>
+    </property>
+    <property name="placeholderText">
+     <string>Preço</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="quantidade_entrada">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>180</y>
+      <width>125</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string extracomment="texto"/>
+    </property>
+    <property name="placeholderText">
+     <string>Quantidade</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_entrada">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>220</y>
+      <width>125</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Entrada</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Preco_saida">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>140</y>
+      <width>125</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string extracomment="texto"/>
+    </property>
+    <property name="placeholderText">
+     <string>Preço</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_saida">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>220</y>
+      <width>125</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Saida</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="quantidade_saida">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>180</y>
+      <width>125</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string extracomment="texto"/>
+    </property>
+    <property name="placeholderText">
+     <string>Quantidade</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="produto_saida">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>100</y>
+      <width>125</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>produto</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="gastou">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>760</y>
+      <width>60</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Gastou=</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gasto">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>760</y>
+      <width>60</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>gasto</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ganhou">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>780</y>
+      <width>60</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>ganhou=</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ganhou_2">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>780</y>
+      <width>60</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>ganhou</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="atualizar_gasto">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>820</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>atualizar</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="estoque">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>340</y>
+      <width>191</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>item do estoque</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="legenda_estoque">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>320</y>
+      <width>60</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Item</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="legenda_estoque_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>320</y>
+      <width>60</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>quantidade</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="produto_saida_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>125</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>produto</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="botao_entrada_2">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>220</y>
+      <width>125</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Entrada</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="nome_novo">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>140</y>
+      <width>125</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string extracomment="texto"/>
+    </property>
+    <property name="placeholderText">
+     <string>Nome</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>180</y>
+      <width>125</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Unidade</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kilograma</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>metro</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>litro</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="cadastro">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>100</y>
+      <width>125</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>cadastro</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="produto_tranforma_1">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>340</y>
+      <width>125</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>produto</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_vira">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>370</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>vira</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="quantidade_transforma">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>340</y>
+      <width>125</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>quantidade</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="produto_tranforma_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>390</y>
+      <width>125</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>produto</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="quantidade_transforma_2">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>390</y>
+      <width>125</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>quantidade</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="atualizar_estoque">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>800</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>atualizar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>500</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
